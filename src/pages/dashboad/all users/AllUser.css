@@ -1,0 +1,26 @@
+td{
+    vertical-align: middle; /* Vertical center alignment */
+    text-align: center; /* Horizontal center alignment */
+  }
+
+.make-admin button{
+    background-color:rgb(0, 173, 0);
+    margin-right: 3px;
+    border: 0;
+}
+.make-admin button:hover{
+    background-color: rgb(0, 146, 0);
+}
+.user-action button:first-child{
+    background-color: rgb(224, 55, 69);
+    margin-right: 3px;
+    border: 0;
+}
+/* .user-action button:first-child{
+    background-color: orange;
+    margin-right: 3px;
+    border: 0;
+} */
+.user-action button:hover{
+    background-color: rgb(189, 52, 63);
+}

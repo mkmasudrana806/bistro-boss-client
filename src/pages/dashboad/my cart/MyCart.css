@@ -1,0 +1,18 @@
+td{
+    vertical-align: middle; /* Vertical center alignment */
+    text-align: center; /* Horizontal center alignment */
+  }
+
+.item-action button:last-child{
+    background-color: rgb(224, 55, 69);
+    margin-right: 3px;
+    border: 0;
+}
+.item-action button:first-child{
+    background-color: orange;
+    margin-right: 3px;
+    border: 0;
+}
+.item-action button:hover{
+    background-color: rgb(189, 187, 187);
+}

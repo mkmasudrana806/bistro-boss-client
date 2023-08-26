@@ -1,0 +1,39 @@
+.custom-component {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Adjust the height as needed */
+    background-image: url('../../../../assets/home/banner.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* for transparent background overlay  */
+  .custom-component .content {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(2, 2, 2, 0.562); /* Adjust the alpha value to control transparency */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  /* /* for linear gradient background  */
+  
+  
+  .custom-component h2, .custom-component p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .custom-component h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .custom-component p {
+    font-size: 16px;
+  }
+  

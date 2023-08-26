@@ -1,0 +1,26 @@
+/* custom-styles.css */
+.custom-offcanvas-body {
+   flex-direction: column;
+   width: 200px;
+  }
+  .custom-offcanvas-body ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .custom-offcanvas-body ul a{
+     text-decoration: none;
+     padding: 5px;
+     display: block;
+     border-radius: 5px;
+     color: black;
+  }
+  .custom-offcanvas-body ul li{
+     border-radius: 5px;
+     margin-bottom: 3px;
+  }
+  .custom-offcanvas-body ul li:hover{
+   background-color: rgb(138, 138, 138);
+  }
+  .custom-offcanvas-body ul li a.active{
+    color: white;
+  }
